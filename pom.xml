@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.dominisz</groupId>
-    <artifactId>java8desktop</artifactId>
+    <artifactId>defibrillators</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>java8desktop</name>
+    <name>defibrillators</name>
     <description>Maven project for Java 8 desktop application with Lombok and JUnit dependencies</description>
     <url>https://github.com/dominisz/java8desktop</url>
 
