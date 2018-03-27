@@ -7,11 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution {
+import static pl.agnieszka.defibrillators.StringUtils.toDouble;
 
-    static double toDouble(String number){
-        return Double.parseDouble(number.replace(',', '.'));
-    }
+public class Solution {
 
     public static void main(String args[]) {
 
