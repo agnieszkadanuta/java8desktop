@@ -1,7 +1,11 @@
 package pl.agnieszka.defibrillators;
 
+
+import lombok.Data;
+
 import static pl.agnieszka.defibrillators.StringUtils.toDouble;
 
+@Data
 public class Defibrillator {
 
     private int number;
@@ -25,23 +29,4 @@ public class Defibrillator {
         return defibrillator;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public Point getLocation() {
-        return location;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public String getAddres() {
-        return addres;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
 }

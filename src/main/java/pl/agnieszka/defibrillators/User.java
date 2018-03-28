@@ -1,15 +1,13 @@
 package pl.agnieszka.defibrillators;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
 public class User {
 
     private Point location;
 
-    public User(Point location){
-        this.location = location;
-    }
-
-    public Point getLocation() {
-        return location;
-    }
 }
 

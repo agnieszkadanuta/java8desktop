@@ -12,8 +12,8 @@ class PointTest {
     private Point zeroPoint;
 
     @BeforeEach
-    void setUp(){
-        zeroPoint = new Point(0,0);
+    void setUp() {
+        zeroPoint = new Point(0, 0);
 
     }
 
@@ -34,7 +34,7 @@ class PointTest {
     }
 
     @Test
-    void distanceToItself(){
+    void distanceToItself() {
 
         Point b = zeroPoint;
 

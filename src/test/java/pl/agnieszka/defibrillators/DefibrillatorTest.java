@@ -11,8 +11,7 @@ class DefibrillatorTest {
 
         String description = "1;A;B;C;1,1;2,2";
         Defibrillator defibrillator = Defibrillator.createDefibrillator(description);
-
-
+        
         assertEquals(1, defibrillator.getNumber());
         assertEquals("A", defibrillator.getName());
         assertEquals("B", defibrillator.getAddres());
