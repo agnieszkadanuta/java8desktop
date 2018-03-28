@@ -12,7 +12,7 @@ public class Defibrillator {
 
     public Defibrillator(){}
 
-    static Defibrillator createDefibrillator(String description){
+    public static Defibrillator createDefibrillator(String description){
 
         String[] tokens = description.split(";");
         Defibrillator defibrillator = new Defibrillator();
