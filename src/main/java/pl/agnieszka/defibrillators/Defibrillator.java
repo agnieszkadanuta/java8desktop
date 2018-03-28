@@ -4,11 +4,11 @@ import static pl.agnieszka.defibrillators.StringUtils.toDouble;
 
 public class Defibrillator {
 
-    int number;
-    String name;
-    String addres;
-    String phoneNumber;
-    Point location;
+    private int number;
+    private String name;
+    private String addres;
+    private String phoneNumber;
+    private Point location;
 
     public Defibrillator(){}
 
@@ -23,5 +23,13 @@ public class Defibrillator {
         defibrillator.location = new Point(toDouble(tokens[4]), toDouble(tokens[5]));
 
         return defibrillator;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Point getLocation() {
+        return location;
     }
 }
