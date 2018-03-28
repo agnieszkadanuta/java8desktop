@@ -32,4 +32,16 @@ public class Defibrillator {
     public Point getLocation() {
         return location;
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public String getAddres() {
+        return addres;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
